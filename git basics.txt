@@ -1,0 +1,45 @@
+git init   //initialize the git repository
+
+git add <file>
+
+git add .		add all files
+
+git status 	<status of working tree>
+
+git commit  	<Commit changes in index>
+
+git push		Push to remote repository
+
+git pull 		Pull latest from the remote repository
+
+git clone		Clone repository into a new directory
+
+git config --global  user.name 'sbramesh79'
+
+git config --global user.email 'r.vasishta@hotmail.com'
+
+git add index.html
+
+git status
+
+git rm --cached index.html
+
+git add *.html // add all html files
+
+git add .
+
+git commit
+
+press i  //
+
+escape
+
+:wq
+
+git branch  'branchname'
+
+git branch login
+
+git checkout 'branchname'
+
+git checkout login

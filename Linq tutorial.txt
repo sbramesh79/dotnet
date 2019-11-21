@@ -1,0 +1,47 @@
+LINQ Query
+
+query syntax
+
+1. Initialize
+
+2. Condition
+
+3. Select
+
+	ex from object in datasource
+	where condition
+	select object
+
+
+List<int> numbers= new List<int>() {1,2,4,5,6};
+
+var output= from obj in numbers
+	    where obj > 25
+	   select obj;
+
+
+var methodSyntax = numbers.where(x=> x> 25);
+
+var mixed = (from obj in numbers
+		select obj).Max();
+
+
+IEnumerable and IQueryable
+
+IEnumerable is part of System.Collections and follows iteration pattern
+
+It is good for in memory
+
+IQueryable is part of System.Linq, again IQueryable: IEnumerable
+
+It is good for different providers
+
+Project
+
+Select data from a data source(in actual or other form by applying some operations)
+
+There are two methods
+
+1. Select
+
+2. Select many

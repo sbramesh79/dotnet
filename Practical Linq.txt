@@ -1,0 +1,109 @@
+Query syntax
+
+
+var Query = from c in CustomerList
+	    where c.CustomerId == CustomerID
+	    Select c;
+
+Lambda
+
+var Query = CustomerList.Where(c=>c.CustomerId==CustomerId)
+
+
+
+Method syntax
+
+
+Delegate
+
+
+Delegate is object oriented , type safe function pointer
+
+CustomerList foundCustomer =null;
+
+foundCustomer = customerList.FirstOrDefault(c=>c.customerId == customerId)
+
+Lambda function
+
+Lambda is unNamed, inline function
+
+SingleLine does not require return statement
+
+MultiLine
+
+Chaining
+
+Extension methods can be chained
+
+foundCustomer = customerList
+		.Where(c=>c.customerId ==CustomerID)
+		.Skip(1)
+		.FirstOrDefault()
+
+
+Deferred execution
+
+LINQ query is executed when the query variable is iterated over
+
+Not when the query variable is declared
+
+
+var Query = from c in customerList
+	    where c.customerId == customerId
+	    select c;
+
+foundCustomer = query.First();
+
+
+Sorting
+
+OrderBy
+OrderByDescending
+ThenBy
+ThenByDescending
+Reverse
+
+
+
+public IEnumerable<Customer> SortByName(List<Customer> customerList)
+{
+	return customerList.OrderBy(c=> c.FirstName)
+				.ThenBy(c=>c.LastName)
+}
+
+
+public IEnumerable<Customer> SortByDescending(List<Customer> customer)
+{
+	return customerList.OrderByDescending(c=>c.FirstName)
+				.ThenByDescending(c=>c.LastName)
+}
+
+
+Compare and Combining
+
+1. Intersect
+
+2. Except
+
+3. Concat
+
+4. Distinct
+
+5. Union
+
+
+Anonymous types are great for defining types on the fly
+
+anonymous type should not be passed from function
+
+
+public dynamic GetEmailAndName(IEnumerable<customer> customer)
+{
+		
+	var Query = customer.select(c=> new {
+			Name = c.FirstName + " " + c.LastName,
+			c.Email
+		});
+return Query;	
+
+}

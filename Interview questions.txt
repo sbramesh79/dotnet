@@ -1,0 +1,107 @@
+Interview questions (Pro-Karma)
+
+1. Difference between Abstract class and interface
+
+2. Explain Liskov substitution principle
+
+3. MVC is stateful or stateless
+
+4. Durable functions in Azure (Its an extension to azure function, which helps in writing stateful function in server less environment.  Define work flow in the code)
+
+Serverless
+	- Deploy without having worry about the infrastructure
+	- Automatic scaling
+	- Consumption based pricing
+
+Durable function
+	-Define workflows in the code (Orchestrator function)
+	-Parallel execution
+	-Error handling
+	-Supports many workflow patterns
+	-Solves the state problem
+
+Benefits
+	1. Define the workflow
+	2. Seperation of concerns
+	3. Easy to implement complex work flows (fan-out and fan-in) pattern
+	4. Consolidate exception handling
+	5. Check on progress and cancel the work flow
+	6. Mange the state
+
+5. MVC filters
+
+6. How authentication works in Azure and which authentication you used?
+
+7. Difference between Dynamic and Var
+
+8. What is deferred function in lync?
+
+	deferred or lazy operators (select, where, take , skip) query is not executed where it is defined, but when it starts iterating through the sequence
+	immediate or greedy operators (count, min, max, avg)
+
+9. Transactions in SQL Server and how isolation is handled
+
+10. View Bag and ViewData
+
+11. Rank function in SQL Server
+
+12. Design pattern (Adapter, Singleton, Repository)
+
+13. Dependency injection
+
+14. IEnumerable and IQueryable
+
+15. Logging exceptions
+
+16. Unit testing and moq framework
+
+	it is required when a particular component is not available and returns true
+	Email notification after inserting an object to blob
+	Use Moq framework
+		Create an object
+		object.method which needs to be mocked
+	Methods needs to be virtual
+
+17. MVC application life cycle pipeline
+
+18. Action filters
+
+19. Routing in MVC and web api (write routing syntax)
+
+20. What is Rest 
+
+21. Stored procedure with transaction (write an example)
+
+22. Differentiate interface and abstract class
+
+23. Repository pattern and unit of work
+
+24. Explain different design patterns
+
+25. Exception handling in MVC
+
+26. JQuery syntax
+
+27. Jquery selectors by an example
+
+28. Different types of join with example 
+
+29. Cross join
+
+30. What is left outer join 
+
+31. Write a simple query for inner join
+
+32. Knowledge of TFS, GIT and team management
+
+33. Are you flexible to extend some time 
+
+34. C# multiple and multi-level inheritance
+
+35. Attribute routing
+
+36. MVC routing
+
+37. Sealed and private method
+
+38. 

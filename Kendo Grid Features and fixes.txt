@@ -1,0 +1,66 @@
+New features
+
+1. Batch support for oData v4
+2. Multi check filter to work with null values
+3. Add iconClass API for Update and Cancel command buttons in grid
+4. Grid infinite(endless) scroll
+5. Full support of CRUD operations with Virtual scrolling
+6. Persist dirty indicator with batch editing and client-side operations
+7. Grid keyboard navigation improvements.
+8. Improving performance with paging and sorting of DataSource with local data
+9. Support for collapsible rows in Excel export
+10. Custom group sorting
+11. Grid checkbox column not compatible with standard selection
+12. Add formatting functionality to the Tabular PDF export columns
+
+
+Fixes
+
+1. An incorrect dataItem is returned when using the built-in checkbox column and endless scrolling.
+2. columns.selectable not working with multiple grids on the same page
+3. Grid editing does not work with nested array column fields
+4. The pager buttons of the Adaptive grid are not visible for Flat theme in IE11
+5. The numeric buttons in the pager of the Adaptive grid are not rendered correctly for some Less themes
+6. The Cancel button icon is missing in the column menu filter UI for the Adaptive grid.
+7. Column menu text is not visible for some themes in the Adaptive grid
+8. The numeric pager field of the Adaptive grid is not positioned correctly for some Less themes
+9. Filtered Grid with enabled Virtual scrolling break the delete functionality with Batch editing
+10. Grid columnMenu filtering throws an exception when a column is filtered two times and the field contains a dot
+11. The last row is not visible when the horizontal scrollbar is shown after column resize.
+12. The columns container in the Grid ColumnMenu is not scrollable with the mousewheel.
+13. Grid filtering will boolean fields is not working as expected when the field is null
+14. MinResizableWidth should be enforced on double click
+15. Grid Pager numbers cover bottom Grid row preventing selection on small screens
+16. Adaptive Grid demo does not show next/prev buttons in IE11
+17. Scrollbar "gap" in Grid header in Bootstrap LESS theme
+18. The clear button in the Adaptive Grid demo is not centered.
+19. The wrong icon is displayed in a boolean column of the adaptive Grid.
+20. Inconsistent bottom border in the grid last row in type-material themes
+21. In the mobile Grid' filter menu, the options AND and OR does not appear as selected(Flat theme).
+22. Grid autoFitColumn fails if columns grouped and expanded
+23. The editing of the virtualized Grid is not working if after filtering the number of items is less then the pageSize.
+24. Grid Dirty span misaligned with column template
+25. Redundant pager buttons in MVC grid
+26. Checkboxes are not aligned to the label in popup edit form.
+27. Filtering more than one column in the MVC Grid results in an error
+28. The Grid PDF export produces misaligned footer template when there is a hidden column.
+29. Column menu icon in Grid headers are broken in SASS themes in IE
+30. Grid "selectable" column does not remove the selected state from the unlocked columns table
+31. If paperSize option is used together with footer template pdf export is misaligned
+32. When an input element is focused, the Grid will not receive the focus when clicked, and the keyboard navigation is not working.
+33. Grid Filter Checkbox not cleared on filter click
+34. The page size dropdown instantly closes in Chrome
+35. When the Grid is with persistSelection the selectedKeyNames method will still return the selected IDs after the 36. clearSelection metho is used.
+37. Wrong color in the grid column menu
+38. The DropDown used for chaning the Grid current page, is not closing on mobile devices when clicking outside of it.
+39. Grid deselecting all rows with master checkbox fires change event two times
+40. Keyboard navigation should persist column index
+41. Sort icon in grouped item is broken
+42. Grid PDF Export with detail template exports only the first page
+43. An error is thrown when editing a cell of a Grid on Mac
+44. Grid Media property is not working in Multi-column headers scenario
+45. The "close" event of the Grid's popup edit Window fires twice when the "close" button is clicked
+46. The style for sorted column is not applied properly when grouping is enabled
+47. Pdf export functionality repeats the first page multiple times when papersize is not set.
+48. Grid PDF Export with detail template exports only the first page
+49. Tabular PDF export not sizing date and number columns

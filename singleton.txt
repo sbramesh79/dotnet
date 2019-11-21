@@ -1,0 +1,35 @@
+A Singleton is used when a single instance of an object in your entire application. You want to literally remove the ability to create mulitple instances of something.
+
+
+Objects are created using constructors, in order to create the restriction we need to make the make the constructor private.
+
+
+Example 
+
+
+Public class SingleTonExample {
+
+Private static SingleTonExample singleTon
+
+
+Private SingleTonExample()
+{
+}
+
+
+public static SingleTonExample getInstance()
+{
+
+if (singleTon==null)
+
+{
+	singleTon= new singleTonExample();
+}
+return singleTon();
+
+}
+
+}
+
+
+The above code is not thread safe due to the fact that, if multiple threads try to simultaneously access  the 

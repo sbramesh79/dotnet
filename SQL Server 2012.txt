@@ -1,0 +1,56 @@
+Select Firstname, lastname, 'employee' as PersonType
+from Emp
+union
+select Firstname, lastname , 'customer' as PersonType
+from customer
+
+
+Intersect and except
+
+intersect is an operator, it returns matching null records as well. It doesn't return duplicate records
+
+Select BankruptcyId from Bankruptcy.Bankruptcy
+intersect
+Select BankruptcyId from Claim.BankruptcyClaim
+
+
+Select BankruptcyId from Bankruptcy.Bankruptcy
+except
+Select BankruptcyId from Claim.BankruptcyClaim
+
+Aggregate function
+
+Count(), Min(), Max(), Sum() and Avg
+
+SQL Server questions
+
+	return employee record with highest salary
+
+	highest salary in employee table
+
+	return 2nd highest salary from the table
+
+	range of employees based on id
+
+	return an employee with highest salary and department name
+
+	highest salary, employee_name, department_name for each department name
+
+
+query highest salary
+
+Select * from employee
+where salary = (select max(salary) from employee)
+
+second highest salary
+
+select * from employee
+where salary not in (select max(salary) from employee)
+
+Row Number, Rank and Dense Ranking
+
+Row number returns increasing unique number for each row
+
+Ranking returns increasing unique number for each row, incase of duplicate row same rank is applied for duplicate rows. Rank function skips ranking if there are duplicates
+
+Ranking returns increasing unique number for each row, 

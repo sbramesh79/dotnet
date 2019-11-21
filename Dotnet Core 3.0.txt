@@ -1,0 +1,20 @@
+.Net Core 3.0
+
+It does not support to run application on .Net framework
+
+Program.cs is the entry point for the application.  It starts with CreateHostBuilder, which returns IHostBuilder and on the point Build and Run is called. 
+
+webBuilder calls startup, it contains two methods
+
+ConfigureServices
+
+Configure services takes care of dependency injection, its integal part of Core. It manages the life time of an object, register and ask instance of an object.
+
+Life time of an object is maintained by container
+
+	1. Transient new instance every time
+	2. Scoped until the web request is handled
+	3.Singleton one instance
+
+Configure
+

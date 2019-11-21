@@ -1,0 +1,25 @@
+C# 6.0 features
+
+1. Auto properties and immutability
+
+2. Expression bodied members
+
+3. nameOf : it makes use of INotifyPropertyChanged
+
+4. stringinterpolation
+
+5. Save navigation operator  
+
+example: to get value in an object, first check object is not null then property.
+
+if( object !=null)
+{
+	if(object.name !=null)
+	{
+		return object.name;
+}
+}
+
+using safenavigation
+
+return object?.user?.name;

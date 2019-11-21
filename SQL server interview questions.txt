@@ -1,0 +1,55 @@
+SQL server interview questions
+
+1. SQL Server runs on port 1433
+
+2. Types of backup in sql server
+
+	1. Full backup
+	2. Differential backup
+	3. Transactional log backup
+
+3. Update_Statistic makes the search easier
+
+4. Having and where clause
+	Having is used only with the Group by Clasue
+	where is used with normal select statement
+
+5. Mirroring, is high availability server. Like backup
+
+6. Stored procedure is a set of sql satements, it can take input and send back output. It reduces the network traffic and improve the performance. It is used to ensure the integrity of the database.
+
+advantages
+
+	a. improves application plan
+	b. can be reused
+	c. encapsulates the logic
+	d. Provides better security to data
+
+7. Common performance issues
+
+	a. Deadlocks
+	b. Blocking
+	c. Poor query plans
+	d. Missing or unused indexes
+	
+8. Performance turning tools
+	a. Sql server profiler
+	b. Server side traces
+	c. Query plans
+	d. Windows performance monitor (It captures the entire metrics of the servrer, Disk,  memory, processor and network
+
+9. Local and global temporary table
+
+	Global temp table stays till the connection is closed. Where as local 
+
+10. Get the version of SQL Servrer 
+
+	Select @@version
+
+11. SQL Server agents helps us to schedule the jobs and scripts
+
+12. A heap is a table that does not contain any clustered or non-clustered index.
+
+13. The process of table design to minimize the data redundancy is called normalization. Divide database into two or more tables and define relationship
+
+14. SQL Server username and passwords are stored sys.server_principals and sys.sql_logins

@@ -1,0 +1,35 @@
+routes.MapRoute(
+name: "Deafult",
+url:"Controller/Action/{id}"
+defaults: new {Controller="Home", Action="Test", Id=""}
+constraint Id-regular expression
+
+Filters are attribute which are used to perform some logic before and after  an action is executed
+
+Authentication
+Authorization
+Caching
+Action
+Result
+Exception
+
+
+linq
+
+var resultSet = from s in studentList
+	         where s.Age > 18
+	         select s;
+
+var resultSet = from s in studentList
+	         group s by s.age
+
+var resultSet = 
+
+routes.mapMvcAttributeRoutes()							
+
+Custom filter
+
+public class LogFilter : ActionFilterAttribute
+{
+
+}

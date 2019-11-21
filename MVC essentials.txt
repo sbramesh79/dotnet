@@ -1,0 +1,125 @@
+MVC essentials
+
+Model stores data, application logic
+
+View- UI /Representation
+
+Controller -Handles user interactions passes to view
+
+
+Advantages of MVC
+
+
+1. Separations of concerns
+
+2. Easy to maintain
+
+3. Code reuse
+
+4. Low coupling
+
+5. Simultaneous development (git distributed sharing)
+
+6. Unit test
+
+7. Embraces stateless nature of web
+
+8. Human readable and SEO friendly url
+
+
+App Data
+
+use to store database
+
+App_statrt
+
+Content (bootstrap)
+
+Controller
+
+Model
+
+View
+
+fonts (static content files)
+
+scripts
+
+Request life cycle
+
+User--> Http Request-->Routing()-->controller initialization-->Action execution-->
+Result execution-->view engine-->Http Response
+
+Filters (Authentication, Authorization, Action and Exception)
+
+routing
+
+routes.Maproute(
+name:"Default",
+url: "{Controller}/{action}/{id},
+defaults: new {controller="Home"
+
+Action result
+
+1. View result
+
+2. Empty result
+
+3. Redirect result
+
+4. Json result
+
+5. Javascript Result
+
+6. Content result
+
+7. File stream result
+
+8. File path result
+
+
+RedirectToAction
+
+Attribute Routing
+
+in register route add this line
+
+routes.mapMvcAttributeRoutes()
+
+Types of filters in MVC
+
+1. Authentication
+
+2. Authorization -- model binding
+
+3. Action (InActionExecuting and OnActionExcecuted)
+
+4. Result
+
+5. Exception
+
+
+CustomFilter
+
+Steps to create custom filter
+
+1. Create a log filter which inherits ActionFilterAttribute, it impliments IActionFilter
+
+2. Register the filter in GlobalFilters (RegisterGlobalFilters)
+
+3. Filters can be used at globally, controller level , action level
+
+
+Client side and server side commenting
+
+Server side commented code cannot be sent over wire
+
+Passing data from Controller to View
+
+ViewData --dictionary of objects keyed by string life time-Section
+
+ViewBag---dynamic type-- current request
+
+TempData-works for current and subsequent request
+
+Logging :ActionFilterAttribute (impliments IActionFilter)

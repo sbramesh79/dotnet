@@ -1,0 +1,44 @@
+API gateway acts as an entry point for our api
+
+Every api should have the basic stuff like
+
+ssl certificate (change once in three months)
+
+Authentication  /home
+	          /products
+
+
+Authorization	/products/add
+		/products/delete/id
+
+for all the basic operation
+
+Feature 1
+
+	1. Authentication
+	2. Authorization
+	3. SSL termination
+	4. DDos protection/Throttling
+
+Feature 2
+
+Separate and consolidate cross cutting concerns accross microservices
+
+	1. Authentication
+	2. Authorization
+	3. SSL termination
+	4. DDos protection/Throttling
+	5. Routing
+
+Feature #3
+
+Replacing multiple client call with single api call
+
+	serving static content
+	caching the response
+
+Feature #4
+
+Routing based on headers, path and parameters
+
+load balancing

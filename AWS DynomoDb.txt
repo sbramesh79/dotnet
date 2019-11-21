@@ -1,0 +1,107 @@
+Dynomo DB
+
+Easily creates table in NoSQL
+
+Service operates fast and scalable
+
+Table Data is stored in Solid state disks
+
+
+Dynomo Db concepts
+
+Tables
+
+Items and contributes
+
+Primary
+
+Secondary index
+
+Data type
+
+Item distribution
+
+
+Nine features of Dynomo Db
+
+1. Document Data model support
+
+2. Key value data model
+
+3. Schema less
+
+4. Seamless scaling
+
+5. Local development and global scaling
+
+6. Strong consitency and Atomic counters
+
+7. Integrated monitoring
+
+8. Security
+
+9. Integration with AWS Data pipeline
+
+
+New features
+
+1. Streams
+
+2. Cross region replication
+
+3. Triggers
+
+4. Free text search
+
+5. Integration with titan graph database
+
+
+
+
+AWS RDS
+
+Oracle
+
+MySQL
+
+SQL Server
+
+PostgreSQL
+
+MariaDb
+
+Amazon aurora
+
+
+
+Reasons to use RDS
+
+
+1. Scalability
+
+2. Handling critical tasks
+
+3. Fast service
+
+4. Database engine
+
+5. High availability and reliability
+
+6. Tracking performance 
+
+7. Low rates
+
+8. Security and full control
+
+Three types of DB instance storage
+
+1. General purpose SSD
+
+2. Provisioned IOPS SSD
+
+3. Magnetic
+
+
+
+
+

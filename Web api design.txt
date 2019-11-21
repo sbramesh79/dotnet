@@ -1,0 +1,274 @@
+Web API
+
+Do you really need a web api?
+
+Define the scope very well
+
+How http works
+
+Request
+
+	Verb/Hearder/Content
+
+Verbs (GET:POST:PUT:DELETE:PATCH)
+headers: metadata about the request (Content type/content lenght/Authorization/Accept/cookies
+Content: Html, CSS,  JavaScript
+Response
+
+	status code/headers/content
+status code: 100-199 Information
+	    200-299- Success
+	300-399 Redirection
+	400-499	Client errors
+	500-599	Server errors
+
+headers
+
+Content type/ content length/Expires/Cookies
+
+it is stateless
+
+
+REST
+	Representational State transfer
+	Sepearation of client and server
+	Server requests are stateless
+	Cacheable requests
+	Uniform interface
+
+Well designed API
+
+REST api has several parts
+
+1. URI  -- path to resource, nouns are good, verbs are bad
+	eg api/customers
+	    api/employees
+
+2. Resources
+	customers, employee, product
+
+3. Use unique identifiers
+	api/customers/1
+	api/products/edible
+4. Query string
+	api/customers?sort=name
+	api/customers?page=1
+	api/customers?format=json
+5. Verbs
+	GET-Retrieve resource
+	POST: Add a new resource
+	PUT: Update an existing resource
+	PATCH: Partial update
+	DELETE: Remove an existing resource
+
+idempotent
+
+operation that can be applied multiple times without changing the result
+
+POST is never idempotent
+
+Designing results
+
+Member names shouldn't expose Server details
+E.g Ruby/Java/.Net
+Camel Casing
+
+Total count of the records
+Paging
+
+Formatting the results
+
+Accept: application/json, text/xml
+
+Prefer not to use query string for formats
+/api/customer?format=json// antipattern
+
+common formats
+
+	JSON: application/json
+	XML:  text/xml
+	JSONP: application/javascriptp*
+	RSS: application/xml+rss
+	ATOM
+
+Hypermedia
+
+	Allows results to be self-describing
+	Allows programmatic navigation
+	Adds complexity
+
+Designing associations
+
+payments
+invoice
+shipments
+
+we can have specific and generic details
+
+payments/invoice/shipments related to a single customer or all
+
+api/payments
+api/invoice
+api/shipments
+
+
+api/customers/123/payments
+api/customers/123/invoice
+api/customers/123/shipment
+
+
+paging
+
+lists should support paging
+Query string is commonly used 
+use wrappers to imply paging
+
+
+Error handling
+
+Caching
+
+Basic tenent of REST API
+Server side caching is good
+Use Http for caching mechanism
+using Etags (Entity tags) strong or weak tags
+Request if  none match (response  304 indicate cached)
+
+
+
+
+Functional api
+	They are not restful
+
+ex: calculate tax, reboot server
+
+Asynchronous api
+SignalR
+Firebase
+Socket.IO
+
+Versioning
+
+URI or Content versioning
+API Version isn't  Product version
+Changes are quite common, even though the product or application is very well designed. To address the changes versioning is required.
+
+ways to version
+
+Versioning the URI path
+
+Pros: Very clear to the customer where version is handled
+Cons: Every version needs to change the URI, can be brittle
+
+QueryString versioning
+Pros: Versioning is optionally included
+Cons: Too easy for clients to miss needing version
+
+Versioning with header
+Pros: Separates versioning from  the rest of API
+Cons: Requires more sophasitcated  developer to manipulate header
+
+Versioning with Accept Header
+Pros: No need to create your own custom header
+Cons: Even less discoverable than query string
+
+Versioning with content type
+
+Pros: helps for long lived application/clients
+Cons: Requires lot more development maturity to create and maintain. Its very powerful
+
+Locking down API
+
+API and Security
+Cross domain security
+Authentication/Authorization
+Security consideration  during design
+Types of API security
+
+Do you need to secure your api
+
+	1. using private or personalized data?
+	2. sending sensitive data accross the wire?
+	3. using credentials of any kind?
+	4. trying to protect over use of the servers?
+
+Threats to your api
+
+	1. Users/Hackers
+	2. Packet sniffers
+	3. Intrusion and physical security
+
+SSL is almost appropriate
+Cross origin security
+
+*Server infrastructure security is very important
+
+Cross domain security
+Public /Private
+
+Cross origin resource sharing
+
+	Only limits browser, not app
+	Most platform supports  CORS
+
+How CORS works
+
+	1. Browser requests access
+	2. Server replies with rules
+	3. Browser issues with CORS header
+
+
+Authentication types for API
+	app authentication
+	user authentication
+
+1. Cookies : It's easy and common, but subject to request forgery (Not secured)
+2. Basic auth : Easy to implement, but not secure unless enforcing SSL (Risky still,  sends credentials  on every request)
+3. Token auth : Most common, its mix of secure and simplicity. Should expire much faster than cookies (5-20)minutes
+3. OAuth
+
+
+Token authentication  
+
+	1. Sends credentials
+	2. Returns token (just a series of character)
+	3. Includes token on subsequent calls
+	4. validates token
+
+JWT's (Jason web tokens), they are not encrypted
+	Industry standard
+	Self contained, small and complete
+	User information
+	Claims
+	Validation signature
+
+OAuth
+
+User trusted third party to identify
+	user authenticates with third party
+	use token to confirm the identity
+	
+How OAuth works
+
+Developer : Requests API key
+API: Supplies API key and shared secret
+Developer: Requests request token
+API: validates and returns token
+Developer: Redirects to API's  Auth URI
+API: Displays authorization  UI
+User: Confirms authorization
+API: Redirects back to Developer
+Developer: Request access token via OAuth and Request token
+API- Returns access token with timeout
+Developer: Uses API with access token  until timeout
+
+Designing an API without security is a big mistake
+
+Difference between JWT and OAuth?
+
+
+
+
+	
+
+

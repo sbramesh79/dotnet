@@ -1,0 +1,56 @@
+data types
+
+sbyte
+byte
+short
+ushort 16
+int
+unit 32
+long  
+ulong  64 bits
+
+u--unsigned
+
+
+variables
+
+local variables
+static or class variables
+constant
+readonly
+
+variable declared with the key word const is constant
+
+it cannot be modified
+
+static variable can be modified but not constant variable
+
+var
+
+scope of the implicitly typed variable is local, they are declared using the key word var
+implicit variable requires initialization
+it helps while using linq 
+var cannot use null
+
+it was introduced during c# 3.0, they are not replacement for normal variable declaration
+
+var x =null;
+
+in c# 4.0, new type introduced  that is known as  dynamic type and used to avoid compile time checking
+
+difference between var and dynamic
+
+var is part of C# 3.0, it is used as implicit variable
+
+type of the variable is decided at the compile time
+
+initialization is required at the time of declaration, visual studio provides intellisence
+
+it cannot be used for properties or returning values
+
+
+dynamic - c# 4.0
+
+it does not require initialization, type of the variable is decided at the run time
+
+visual studio does not provide intellisence, it can be used for properties or returning function

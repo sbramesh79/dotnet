@@ -1,0 +1,4 @@
+MOQ test
+
+It is part of unit testing, used when we have to bypass certain methods during development phase( Email notification for example). Method should be virtual which needs
+to be mocked.

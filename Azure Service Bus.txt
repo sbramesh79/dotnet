@@ -1,0 +1,44 @@
+Azure Service bus is a multitenant cloud messaging service that sends messages between applications and services.
+
+Messaging
+
+Decoupling of application
+
+Topics and subscriptions
+
+Message sessions
+
+Heart of the Service Bus is Service Bus namespace
+
+messaging services
+
+1. Event Grid (Reactive programming), near real time
+
+2. Event hubs (Big data pipeline), IOT . Telemetry and streaming
+
+3. Service Bus High value enterprise messaging (Order processing and financial transaction)
+
+Service Bus supports (publish/subscribe, topics and queue)
+
+Service bus has the limitation of 80GB data
+
+Service bus supports FIFO, duplicate detection and AMQP protocol
+
+Queues enables you to store messages until the recieving application is available to recieve and process them
+
+Queus is temporary storage location and are delivered in pull mode
+
+strictly follows FIFO. capacity is more than 80 GB
+
+Dynamically it can shrink and expand
+
+Steps to create
+
+1. Create a resource Service Bus
+
+Install pacakage Microsoft.Azure.ServiceBus
+
+a topic is just like a queue, but can have multiple subscriptions
+
+
+

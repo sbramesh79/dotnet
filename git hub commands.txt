@@ -1,0 +1,7 @@
+git remote add origin https://github.com/saanvisr/myfirstrepo.git
+
+git add .
+
+git commit -m "final commit"
+
+git push -u origin master

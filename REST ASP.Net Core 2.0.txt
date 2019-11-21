@@ -1,0 +1,32 @@
+Restful API with .Net Core 2.0
+
+Pre-requisites ASP.Net Core 2.0, C# and RESt
+
+REST is an architectural style, not a standard. we use standards to implement it
+
+REST is protocol
+
+REST constraints
+
+1. Client and Server are separated
+
+2. Statelessness (State is contained with in the request)
+
+3. Cacheable (Each response message must explicitly state if it can be cached or not)
+
+4. Layered system (client cannot what layer it's connected)
+
+5. Code on demand (Server can extend client functionality)
+
+6. Uniform interface
+
+Uniform interface sub constraints
+
+a. identification of resources
+
+b. Manipulation of resources through representations
+
+c. self descriptive message
+
+
+

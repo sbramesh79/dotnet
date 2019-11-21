@@ -1,0 +1,36 @@
+public bool UpdateMilestoneOtherFields(BankruptcyMilestoneFieldOtherTracking objmileStoneOther)
+		{
+			HttpResponseMessage response = MakeWebApiCall("BankruptcyMilestone", HttpVerbs.Post, objectToPost: objmileStoneOther,
+			 actionName: "UpdateMilestoneOtherFields", actionNameRoute: "rpcapi");
+			return response.Content.ReadAsAsync<bool>().Result;
+		}
+
+
+
+		public List<BankruptcyMilestoneFieldOtherTracking> milestoneOtherField(int bankruptcyMilestoneFieldOtherId, long bankruptcyId)
+		{
+			HttpResponseMessage response = MakeWebApiCall("BankruptcyMilestone", HttpVerbs.Get,
+										   urlParams: new Dictionary<string, string> {
+												  { "bankruptcyMilestoneFieldOtherId", bankruptcyMilestoneFieldOtherId.ToString() } ,
+												  {"bankruptcyId", bankruptcyId.ToString() } },
+
+		   actionName: "getmilestoneFieldOther", actionNameRoute: "rpcapi");
+			return response.Content.ReadAsAsync<List<BankruptcyMilestoneFieldOtherTracking>>().Result;
+		}
+
+
+		public List<BankruptcyMilestoneFieldOther> GetBankruptcyMileStoneTypes(int bkMilestoneOptionId)
+		{
+			HttpResponseMessage response = MakeWebApiCall("BankruptcyMilestone", HttpVerbs.Get,
+															urlParams: new Dictionary<string, string> {
+															{ "bkMilestoneOptionId", bkMilestoneOptionId.ToString() } },
+						  actionName: "GetBankruptcyMilestoneOption", actionNameRoute: "rpcapi");
+			return response.Content.ReadAsAsync<List<BankruptcyMilestoneFieldOther>>().Result;
+		}
+
+		public List<BankruptcyMilestoneFieldOtherTracking> GetBankruptcyMilestoneOtherTransaction(long bankruptcyId)
+		{
+			HttpResponseMessage response = MakeWebApiCall("BankruptcyMilestone", HttpVerbs.Get, urlParams: new Dictionary<string, string> { { "BankruptcyId", bankruptcyId.ToString() } },
+				actionName: "GetMileStoneOtherTransactions", actionNameRoute: "rpcapi");
+			return response.Content.ReadAsAsync<List<BankruptcyMilestoneFieldOtherTracking>>().Result;
+		}

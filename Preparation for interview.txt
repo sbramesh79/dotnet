@@ -1,0 +1,27 @@
+* C# (interfaces, SOLID principles, collections, linq, asynchronous programming)
+
+Design patterns
+
+Distributed system design
+
+* Azure services (PaaS, Azure Blob, Azure SQL, Web app, )
+
+* SQL Server (datatypes, stored procedure, functions, temp table, performance tuning and security, types of joins)
+
+* ASP.Net MVC
+
+.Net Core 2.1/2.2
+
+* ASP.Net Web api
+
+Microservices
+
+* Html/CSS/Jquery
+
+* Devops
+
+* Git essentials
+
+
+* indicates practice
+

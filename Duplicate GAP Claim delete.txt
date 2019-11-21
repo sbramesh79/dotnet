@@ -1,0 +1,18 @@
+select * from Claim.BankruptcyClaimPayment Where   BankruptcyClaimId >= 14641 and BankruptcyClaimId < 14805
+order by BankruptcyClaimId
+
+--Find Gap Claims with Escrow 0
+Select BankruptcyClaimId, BankruptcyId, PetitionTypeId, ClaimAmount from Bankruptcy.Claim.BankruptcyClaim where BankruptcyClaimId in (Select BankruptcyClaimId  
+from Bankruptcy.Claim.BankruptcyClaimPayment where EscrowAmount = 0) and PetitionTypeId =4
+
+--- Find Claim Fee
+Select * from Claim.BankruptcyClaimFee where BankruptcyClaimId in (Select BankruptcyClaimId  
+from Bankruptcy.Claim.BankruptcyClaimPayment where EscrowAmount = 0)
+--Find Claim Interest
+Select * from Claim.BankruptcyClaimInterest where BankruptcyClaimId in (Select BankruptcyClaimId  
+from Bankruptcy.Claim.BankruptcyClaimPayment where EscrowAmount = 0)
+
+Select BankruptcyClaimId, BankruptcyId, PetitionTypeId, ClaimAmount from Bankruptcy.Claim.BankruptcyClaim where BankruptcyClaimId in (Select BankruptcyClaimId  
+from Bankruptcy.Claim.BankruptcyClaimPayment ) and PetitionTypeId =4
+/* same records will be deleted  once it is verified */
+select distinct Loanid, BankruptcyId from Bankruptcy.Bankruptcy where BankruptcyId in (Select BankruptcyId from Claim.BankruptcyClaim where BankruptcyClaimId > 14641 and BankruptcyClaimId < 14805 )

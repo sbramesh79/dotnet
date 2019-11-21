@@ -1,0 +1,5 @@
+git status
+
+git remote add 'name' url
+
+git push name branch

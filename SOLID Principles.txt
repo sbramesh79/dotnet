@@ -1,0 +1,45 @@
+SOLID
+
+A Class should have only one reason to change. Every module or class should have responsibility over a single part of the functionality and that responsibility should be entirely encapsulated by the class.
+
+Motivation
+
+	Maintainability
+
+	Testability
+
+	Flexibility and Extensibility
+	
+	Parallel development
+
+	Loose coupling
+
+Interface segregation principle
+
+No client should be forced to depend on the method it does not use. Instead of having one big interface, split into small interface
+
+Liskov substitution principle
+
+Derived types must be completley substitutable for their base type, it is an extension of open closed principle.
+
+implementation guidelines
+
+
+No new exception can be thrown by the sub type
+Clients should not know which specific subtype they are calling
+New derived classes just extend without replacing the functionality of the old class
+
+Dependency inversion principle
+
+High level modules should not depend on low level modules. But both should depend on abstraction
+Abstractions should not depend on detail, but details should depend on abstraction
+
+
+
+Adapter pattern
+
+Adapter pattern comes under structural pattern, it acts a bridge between two incompatible interfaces
+
+best example
+
+card reader which acts as a bridge between memory card and laptop. plug in card into the card reader and card reader into the laptop

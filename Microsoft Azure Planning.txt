@@ -1,0 +1,54 @@
+Identifying Roles and Responsibilities in Microsoft Azure
+
+RACI
+
+Responsible
+Accountable
+Consulted
+Informed
+
+1. Identify the key activities
+2. Identify the Roles
+3. Collaborate
+4. Validate
+5. Communicate
+6. Distribute
+
+Azure hirerachy
+
+1. Azure subscription
+2. Resource group
+3. Resources
+
+Activities
+
+	1. Database management
+	2. Application deployment and testing
+	3. Environment provisioning and maintenance
+	4. Networking
+	5. Subscription management
+
+Azure new roles
+
+1. Database administrators
+2. Cloud administrators
+3. Software engineers
+4. Devops
+5. Quality Assurance
+6. Networking
+
+New Roles
+
+1. Software Engineering manager
+2. Infrastructure manager
+3. Security manager
+
+Create custom role
+
+Azure role-based accesscontrol
+
+Consulted
+
+Lead software architect
+product manager
+Chief technology officer

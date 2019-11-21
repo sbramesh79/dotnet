@@ -1,0 +1,23 @@
+MVC life cycle
+
+Request comes through browser
+
+1. Application start Global.asax ( Routing, bundling, filter
+
+2. Router
+
+3. Application handler
+	
+	create an instance of controller (
+	create temp data provider
+	Create Action invoker
+	Authentication filter( true or false)
+	Authorization filter
+	Model binder
+	Action and Action filter
+	Execute result and execute filter
+
+	controller dispose
+
+
+Temp data stays for a subsequent http requests as opposed to ViewBag and ViewData

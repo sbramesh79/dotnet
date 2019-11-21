@@ -1,0 +1,37 @@
+Repository pattern
+
+It mediates between domain and data layer
+
+minimizes dupicate query logic -- returns IQueryable, needs changes
+Decouples application from persistance frameworks
+Promotes testability
+
+Unit of Work
+DbSet
+	Add, Remove, Find, Where
+
+DbContext
+	DbSet, SaveChanges
+
+clean architecture 
+
+The architecture should be independed of frameworks
+Not one size fits all
+
+
+Design pattern
+
+A reusable solution to a commonly occurring software problem
+
+A blueprint of a solution
+
+Produces high level solution and ignores the implementation.
+
+Renders easily understandable, testable and maintainable
+
+Categories
+	creational -- Object creation mechanism
+
+	Structural -- Class and object composition
+
+	Behavioral -- Communication between the object

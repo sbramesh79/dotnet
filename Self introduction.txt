@@ -1,0 +1,53 @@
+Resume Details
+
+12+ years of experience in Microsoft technologies. Started my career with Mphasis as a SE, i was part of RFID R & D team. Then joined Wipro and worked  there for 5 years on different domains as part of TIS. Evry india, lead a team of 12 members and completed one migration project.
+
+Currently working with Sonata Software ltd as an IC. 
+Project: Loans and mortguage.
+ASP.Net MVC 5,  C#, Kendo telerik control (Kendo Grid, Dropdown list, etc), Dotnet Core 2.0
+
+
+migration project: POC -Azure (Blob, Sql Server, functions)
+
+Goals of Unit test
+
+1. Confirms your code works as expected
+
+2. Determine when code is complete
+
+3. Help document code
+
+
+Anatomy of unit test
+
+	Arrange
+	Act
+	Assert
+
+Arrange : url: http://example.com
+
+Act:  var secureUrl= makeSecureUrl(url)
+
+Assert.Equal("https://", secureUrl)
+
+Tools Winmerge, Netmon, Procmon (process monitor)
+
+.Net framework 4.6
+
+		Changes in base class library, especially for cross platform library
+		Support resizing windows controls
+		Support for code page encodings
+		Improvements to event tracking
+
+
+.Net framework 4.5 features
+
+	1. Bundling and minification feature
+	2. Strongly typed data controls (intellisence support)
+	3. Support for OpenId and OAuth
+	4. Improved paging support in ASP.Net 4.5 Gridview
+	5. Enhanced support for Asynchronous programming
+	6. Support for Websockets
+
+
+		

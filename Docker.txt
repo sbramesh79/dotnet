@@ -1,0 +1,45 @@
+Major difference between  Containers and VM
+
+VM
+
+4. Application
+3. Software
+2. VM/VM/VM
+1. Host OS
+
+
+Containers
+
+3. Applications
+2. Containers
+1. Host
+
+
+VM consumes the allocated RAM, even when it is not working
+
+Containers will not
+
+Containers are light weight
+
+Two important key words
+
+Images and Containers
+
+Images are blueprints for making containers
+
+Images are made up of layers
+
+docker commands
+
+docker -v
+
+docker pull image:version
+
+docker pull nginx: 1.13.0
+
+docker rmi image imageid (first 3 letters)
+
+docker rmi image 3fe
+
+Containers are actual running machines
+

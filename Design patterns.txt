@@ -1,0 +1,38 @@
+Design patterns
+
+Problems that occur frequenlty in tech life have well defined solutions, which are flexible, modular and more understandable. The solutions when abstracted away from the tactical details become design pattern. Design patterns is general, reusable solution for a software problem.
+
+There are 3 types of design patterns
+
+1. Creational
+
+	Creational design patterns relate how objects are constructed from the classes, it comes with powerful suggestions on how best to encapsulate object creation process.
+
+	Builder pattern
+	
+	Prototype pattern
+
+	Singleton
+	
+	Factory and Abstract factory
+
+Structural patterns
+
+	Structural patterns are concerned with composition of classes, how the classes are made up or constructed
+
+ * Adapter pattern
+
+* Bridge pattern
+
+*Facade pattern
+
+* Proxy pattern
+
+* Flyweight pattern
+
+
+Behavioral pattern dectate interaction between classes and objects amongst each other and the delegation of responsibility
+
+2. Structural
+
+3. Behavioral

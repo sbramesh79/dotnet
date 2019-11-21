@@ -1,0 +1,15 @@
+7 habbits of effective programmer
+
+1. Try to learn others code
+
+2. Understand the problems in the system and identify the solution
+
+3. Write simple and effective code
+
+4. Strong Github fundamentals
+
+5. Avoid meetings
+
+6.Operational design thinking
+
+7. Learn to say and prioritize the job

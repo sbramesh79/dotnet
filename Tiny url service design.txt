@@ -1,0 +1,41 @@
+Designing a tiny url
+
+1. what is the need of shortening?
+
+2. Requirements and goals of the system
+
+	a. functional requirements
+	
+	b. non functional requirements
+	
+	c. Extended requirements
+
+3. Capacity estimation and Constraint
+
+	High level estimates of (Bandwidth, Storage and memory)
+
+4. System API's
+
+5. Database design (SQL or NoSQL)
+
+6. Basic system design algorithm
+
+	a. Encoding actual url using hash algorithm
+	
+	b. Different issues
+
+7. Generating keys offline
+
+	a. concurrency issue
+
+8. Data partitioning and Replication
+
+9. Cache
+
+10. Load balancers
+
+11. Purging or Db cleanup
+
+12. Telemetry
+
+13. Security and Permissions

@@ -1,0 +1,5 @@
+microservice is a self contained process, which provides  unique business capability
+microservies makes system loosely coupled
+each services should have its own data-stored, stateless, http
+each pair of request and response communication makes an independent transactions
+advantage of stateless is application will not break if any one of the services fails

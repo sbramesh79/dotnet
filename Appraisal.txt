@@ -1,0 +1,29 @@
+Analaytical thinking
+
+Before starting the actual implimentation, i try to understand the application from domain perspective/business logic and its impact on the existing module. 
+
+In most of the cases i develop a prototype as per redline documents, based on the sign off actual development will start. This helps in identifying dependencies, challenges involved and effort deviation if any.
+
+I followed the same approach in Trustee, Plan, Ledger module. Export to PDF was on of the requirement, where customer was looking for row column level selection. Column level selection was not feasible. I developed a small prototype and shared the details with onsite team regarding the feasiblity analysis.
+
+Coding and application development
+
+I have the good understanding of the technology, followed the basic coding standards as defined and covered the unit testing part before any commit/check-in. Some of the previous experience helped me in this project, analyzing the database schema and data using SQL Server data tools. It is very quick and efficient in comparing, shared the same thing with other team. 
+
+
+I always believe (TEAM) Together everyone achieves more, from day one we are working as a team to make sure that end target is met on time. Understanding
+between the team members is good, extending the support pro-actively, shared my previous experience and 
+some of the best practices and lessons learnt. 
+
+Some of the best practices related to deployment, code snippets and data comparision using SQL server data tools.
+Discussed with other teams to get some inputs related to functionality or business logic to achieve the end task.
+
+
+
+Communication
+
+Communication is one of my strengths, it could be with in the team or clients. It helped me many times for making better
+decisions. I make sure that proper home work is done before going to any of the meetings. I listen carefully,
+then explain my understanding to others to correct if there is any gap.
+Most of the times i ask questions related to the task, which helps in deliverables. I always give importance to the tone, irrespective 
+of the team/audiance. I always respect others persception, even if there are any difference of opinion.

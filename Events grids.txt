@@ -1,0 +1,52 @@
+Azure event grid is fully managed intelligent event routing service that allows for uniform event consumption using a publish-subscribe model
+
+Event sources
+
+Event handlers
+
+Events -->Event Sources--> Topics-->Event subscription-->Event 
+
+Event Grid is simple and powerful
+
+main concepts
+
+Events--something happened
+
+limited to 64 bit schema
+
+Publisher
+
+They sends the events, many built in events
+
+
+Event sources
+
+where the actual event happened
+
+Topics
+
+An event where an event source sends an event
+
+one event can have one or more topics
+
+Event subscription
+
+A subscription is how you inform the event grid about what events you are interested in listening to
+
+must follow strict schema
+
+Event handler
+
+who handles the event
+
+This can be either a supported Azure service or an http webhook
+
+
+Authentication
+
+Webhooks
+
+Event subscriptions
+
+customtopics
+

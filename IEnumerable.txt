@@ -1,0 +1,13 @@
+IEnumerable and IQueryable
+
+Difference between IEn and IQe is where the filter logic is applied
+
+In IEnumerable, entire collection is sent to client side and then filter applied. In memory
+
+In IQueryable, filter is applied at the server side and selected record is sent to client. Collection connected to Db
+
+IEnumerable vs IEnumerator
+
+Both helps to itirate through collection
+
+IEnumerable internally makes use of Ienumerator

@@ -1,0 +1,112 @@
+Domain driven design
+
+any software development should not give importance to technology, but should be given to business/domain.
+
+Any software is of no use when it does not solve the business problem. It may be very robust and well architected.
+
+There are two types
+
+Tactical software design
+
+Stratergy software design
+
+
+Tactical
+
+Service
+
+Project
+
+Layer
+
+Module
+
+Design pattern
+
+OOP
+
+Class
+
+Object
+
+Zip
+
+Stratergy
+
+Domain 
+
+Sub domain 1 sub domain 2 sub domain 3
+Service1	      Service 2         Service 3
+
+
+Strategic design 
+
+It is also called a object oriented design. Think in term of context
+
+Strategic desing tools
+
+1. Ubiquitous language
+
+2. Bounded context
+
+3. Context map
+
+Scenario
+
+Build house
+
+1. What kind of house
+
+2. Talk to domain expert-- 
+
+3. Core values
+
+4. Create a model/ detailed picture (domain model)-- abstraction of the sub domain
+
+5. Bounded context will have relation
+
+6. Mapping of context is called context map
+
+Ubiquitous language
+
+Software development team use same language as part of the discussion (white board discusssion)
+
+Bounded context (e-commerce example)
+
+Sales department
+
+support team
+
+Accounting
+
+Order dept
+
+above four departments are bounded context. It will have its own model and ubiquitous language
+
+Tactical desing tools
+
+It is concerned with implementation details. Generally takes care of components of bounded context. Expected to change during development
+
+Model driven desing
+
+Model
+
+	1. Sub domain
+
+	2. Bounded context
+
+	3. Domain model
+
+	4. Ubiquitous language
+
+Layered architecture
+
+1. Request handlers
+
+2. Controllers
+
+3. Business
+
+4. Persistance
+
+Value objects, one of the best things about good design

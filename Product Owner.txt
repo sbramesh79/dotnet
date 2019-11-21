@@ -1,0 +1,107 @@
+Becoming more effective product owner
+
+What is product vision?
+
+Ensure your items are immediatley actionable
+
+Definition of Done 
+
+Definition of Ready, the specific criteria that must be met before a scrum team may begin
+work an a product back log
+
+Team feedback on specific product backlog items as on opportunity to imporve the readiness
+
+Possible criteria for Definition of Ready
+
+1. Intent is clearly stated
+
+2. Potential business values is described
+
+3. Boundary condition is defined
+
+4. INVEST criteria is met
+
+I : Independent 
+N : Negotiable
+V : Valuable
+E : Estimable
+S : Small
+T : Testable
+
+A great definition of ready will " evolve along with your team"
+
+Scaling product ownership
+
+No of teams is directly propotional to number of product owners
+
+One product owner must retain responsiblity for setting the product's vision and strategy
+
+Product life cycle
+
+	1. Introduction
+
+	2. Growth
+
+	3. Maturity
+
+	4. Decline
+
+Scaling the product backlog
+
+Even when multiple teams work on a single product they must all work from a single Product Backlog
+
+Complexity point estimation works best if each team is able to choose their own baseline point value.
+
+Defining Career Path
+
+Career options for Product owner and certification
+
+Product owner--Product Manager --Director of product management and chief product officer
+
+Path to Chief Product owner
+
+Product owner
+
+1. Backlog creation
+2. Backlog refinement and development team support
+
+Lead product owner
+
+1. Scaling product ownership
+2. Relatively larger product 
+3. Visioning and strategy remains with main product owner
+
+Chief product owner
+
+1. Working with multiple product owners
+2. Working directly with users and analyzing competitor products
+3. Market analysis
+
+
+Goals of product owner
+
+1. Engagement with team
+
+2. Value (right features)
+
+3. Decision making
+
+Set teams priorities based on business value
+
+Product owner competencies
+
+1. Relationship building
+
+2. Analysis
+
+3. Decision making
+
+4. Leadership and communication
+
+5. value analysis
+
+6. Fecilitation
+	
+	Ensures everyone is engaged and participate in the team meetings
+
+	Creates an inclusive environment

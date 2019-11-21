@@ -1,0 +1,7 @@
+dotnet new mvc -o rameshdemo
+
+dotnet build
+
+dotnet run -o
+
+dotnet publish -c release -o  output/ .

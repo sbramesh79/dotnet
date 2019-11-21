@@ -1,0 +1,29 @@
+https://azure-overview.com
+
+60 + services are covered
+
+It helps to make the right decision for any requirements
+
+Azure service to run applications
+
+IaaS, PaaS and LaaS (Logic as a service)
+
+Options
+
+1. VM
+
+2. Containers (Kubernates serviceS)
+
+3. Container instances
+
+4. Web app for containers
+
+5. Batch
+
+6. Service fabric mesh (Server less)
+
+7. Cloud services
+
+8. Web app / mobile/function (Web app)
+
+9. Logic app

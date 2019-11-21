@@ -1,0 +1,40 @@
+Azure authentication
+
+Authentication is the lock on the door for service consumption. Very important to understand the authentication architecture to keep that door well protected
+
+Four pillars of identity
+
+1. Administration
+
+2. Authentication
+	Authentication(strength, delegation) and end user experience
+
+3. Authoriztion
+	Course/Fine grainer
+
+4. Auditing
+
+Authentication is proving a principal is who they say they are
+
+
+Authentication (Who you are )
+
+Authorization (What you can do)
+
+
+Authentication in the public cloud
+
+mainly focused on the protocols
+
+protocols like kerberos and NTLM used on premises do not work well with limited ports
+
+Client   Azure AD Service
+
+RT --Refresh token (used to request new access tokens, valid for 14 days but sliding window allows up to 90 days)
+
+AT-- Access token (user for specific device, per device and valid for one hour)
+
+
+AD to AAD
+
+Active directory to azure active directory

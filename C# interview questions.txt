@@ -1,0 +1,101 @@
+C# interview programming
+
+Difference between ref and value types
+
+Ref types are objects  that store  references  to the actual data
+
+ex: Class, delegate, string, interface, object
+
+Value type
+
+Value type actually holds values
+
+ex: Structs, enums, bools,
+
+delegates are function pointers
+
+
+interface 
+
+interface is like a contract, it containes methods and properties. They don't contain code or data. If a class  implements an interface,  the interface gurantees  that the class  contains  specific methods specified
+
+Abstract class
+
+They are similar to interfaces, it cannot be instantiated. A class can inherit only one abstract class at a time. Mark the methods as virtual for implimentation
+
+
+what is static class
+
+static class can be used to create data or function that don't need to be instantiated. They contain static members
+
+What are Generics
+
+Generics allows type saftey
+
+Object oriented questions
+
+Polymorphism
+
+Best ex: Blueray disc player (it can play blue ray and Cd)
+
+Encapsulation and Abstraction
+
+Encapsulation prevents access to implementation details where as abstraction makes relevants information visible/reveal
+
+What is inheritance
+
+When an object or a class is based on a parent object
+
+4 pillar of Object oriented programming
+
+Abstraction
+
+Polymorphism
+
+Inheritance
+
+Encapsulation
+
+CLR and FCL
+
+Common language runtime or Framework class library
+
+CLR takes care of memory management, exception handling and security ext
+
+FCL is a collection of reusable classes
+
+FCL sits on top of CLR
+
+Managed code 
+
+Boxing and unboxing
+
+Boxing is the process of converting a value type to type object
+
+int i =123;
+
+object o= i; it takes more memory and takes at minimum two memory lookups
+
+unboxing
+
+extracts the value from the object
+
+o = 456;
+
+i = (int)o;
+
+Stored procedure
+
+is a subroutine, contains a  collection of sql commands
+
+saves time and memory with complex logic
+
+Design patterns
+
+Dependency injection, allows your class to no longer  be responsible for instantiating its own dependencies
+
+helps to develop loosely coupled code
+
+ways to implement it
+
+constructor, propery and method injection

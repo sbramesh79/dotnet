@@ -1,0 +1,17 @@
+Test driven development
+
+1. create a unit failing unit test
+2. Make the test pass
+3. Refactor the code
+
+it is achieved using Nunit frame work
+
+1. Create a simple test method name it as Test1
+2. In the method Test1, create an instance of a class 
+3. Test fails since class not exists
+4. Add a class and application compiles
+5. Repeat the step 1 to 4
+6. Inside the Test1, validate calculation 
+7. Add method inside the class
+8. Refactor the code
+9. Repeat

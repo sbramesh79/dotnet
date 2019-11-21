@@ -1,0 +1,62 @@
+Azure app service
+
+
+Web app
+Logic App
+Mobile App
+API app	
+Function apps
+
+all these run on the top of Azure service fabric
+
+it provides Authentication and authorization
+
+Scalability
+
+troubleshooting
+
+Hybrid connectivity
+
+
+Azure web app
+
+its platform for hosting web application, in traditional web hosting developer has to take care of server and OS settings before deployment. In Web app hosting, 
+
+developer need to worry about all these things.
+
+
+Features of Web apps
+
+
+Host web applications (.Net, Node.js, PHP, Python, Java)
+
+SLA 99.95%
+
+Deployment slots
+
+Enable continious deployment
+
+Auto scaling
+
+Authentication/Authorization
+
+Traffic management
+
+Access on premises data
+
+upto 19 slots can be created.
+
+Scaling is only possible in production slot
+
+
+Web jobs (Background job) Background service as a service
+
+Reliable
+
+Can be triggered outside sources
+
+Can be triggered manually or scheduled
+
+Web jobs are part of Web apps
+
+Web jobs could be in the form  of (.exe, js, py, php,  ps1, bat, sh)

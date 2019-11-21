@@ -1,0 +1,51 @@
+System Design basics
+
+1. What are the different architectural pieces that can be used.
+
+2. How these pieces work each other?
+
+Key Characterstics of distributed system include
+
+scalability
+
+Reliability
+
+Availability
+
+Efficiency
+
+Manageability
+
+
+Load balancers are the critical component of the distributed system. It helps to the spread the traffic accross the cluster of servers to improve the responsiveness and availability of the application.
+
+Load balacers can be there in 3 places
+
+Caching
+
+ Caches take advantage of the locality of reference principle: recently requested data is likely to be requested again.
+Caches can exist at all levels in architecture, but are often found at the level nearest to the front end
+
+Data partitioning
+
+Data partitioning is a technique to break up a big database (DB) into many smaller parts. It is the process of splitting up a DB/table across multiple machines to improve the manageability, performance, availability, and load balancing of an application.
+
+Types of partitioning
+
+1. Horizontal
+
+2. Vertical
+
+3. Directory based
+
+Indexes
+
+The goal of creating an index on a particular table in a database is to make it faster to search through the table and find the row or rows that we want. 
+
+Proxies
+
+A proxy server is an intermediate server between the client and the back-end server. Typically, proxies are used to filter requests, log requests, or sometimes transform requests (by adding/removing headers, encrypting/decrypting, or compressing a resource). Another advantage of a proxy server is that its cache can serve a lot of requests.
+
+Redundancy and Replication
+
+SQL vs NoSQL

@@ -1,0 +1,17 @@
+What needs to be done
+
+1.  Basics  (C#, ASP.Net MVC 5, Entity Framework 6, Jquery, Design patterns, Debugging, Deployment)
+
+2.  Hands on (Samples)
+
+3. Value add (Leader ship qualities)
+
+
+Mistakes
+
+1.  Not understanding the application clearly
+
+2.  Hands on
+
+3.  
+

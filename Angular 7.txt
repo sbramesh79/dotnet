@@ -1,0 +1,184 @@
+Angular 7
+
+Why Angular
+
+Angular is expressive, powerful data binding, modular by design and Built in Back-End integration
+
+Built for speed, Modern, Simplified API and Enhances Productivity
+
+Component = Template + Class + Metadata
+
+Module = Component + Component
+
+Angular is a binding framework
+
+dist-- compiled files -- commands --tsc
+Converts all .ts to .js files
+
+node_modules--packages
+
+e2e- End to End testing- White box testing
+
+src- Source code
+app
+
+
+Configuration files
+
+1. Angular.json
+2. Package.json
+3. tsconfig.json
+4. tslint.json 
+	linting is the process of running a program that will analyze code for potential errors
+
+Package.json
+
+devDependencies
+only for development environment
+
+ngServe and ngBuild
+
+ngServe compiles the code in-memory
+
+ngBuild generates the output files, it can be taken to production environment
+
+angular is a binding frame-work
+
+View- angular- Model
+
+angular can be used in Mobile and Desktop application
+
+folder structure
+
+	src
+		
+	app
+
+component and module
+
+component is a binding code. 
+
+group of components is called a module
+
+---------------------------------------------
+
+Components, Expressions, Interpolation, Decorators and Templateuri
+
+Components are building block of angular, is a binding code
+
+bootStrap-- which should be the startup
+
+imp ./ files in the same directory
+
+main.ts
+
+----- flow
+
+index.html loads the main.ts
+main.ts loads module
+module invokes components 
+
+Polyfills
+
+helps you run new ES version Javascripts on old browser which does not support them
+
+------
+Web package management
+
+1. Converts all .ts to .js file
+2. Bundling of js files
+3. Move .js, .css and html to Dist folder
+
+---------------------------------------------------------
+
+1. Runtime.js: This is for webpack runtime
+
+2. Polyfill.js : Helps to run new ES version JS in old browser
+
+3. Vendor.js: This is the actual project coded(component,  Modules and Model)
+
+4. Main.js: First module of the project
+
+
+
+npm install -g @angular/cli
+
+ng serve -o
+
+
+12th June 2019
+
+Attribute and Property
+
+Attribute are html
+
+Property is DOM
+
+
+Attributes values cannot change, Property values can change
+
+interpolation can be used for property, but there is a limitation. It works only for string.
+
+
+Angular forms
+
+Template driven and Reactive forms
+
+Both use Component's template, but unit test is simpler in reactive forms
+
+In reactive form model in typescript 
+
+Validation is easy in form model
+
+Angular CLI
+
+npm install -g @angular/cli
+
+ng new my-dream-app
+
+component life cycle
+
+Create: Render : Create and Render childer: Process changes and Destroy
+
+Life cycle hooks
+
+OnInit : Perform component initialization
+
+OnChanges: 
+
+OnDestroy
+
+
+*ngIf
+
+*ngFor = 'let item of items'
+
+
+show or hide a button
+
+
+
+flag:boolean =false;
+
+showResult() {
+this.flag = !this.flag;
+
+}
+
+
+
+
+<button (click)= 'showResult()'>{{flag ? 'show' : 'Hide'}} Result </button>
+
+Pipes transform bound properties before display
+some of the built in pipes {date, number, decimal, percent and currency}
+
+interfaces
+
+interface is not supported by ES5 or ES6, it is supported by typescript only
+
+supports strong binding
+
+Dependency injection
+
+A coding pattern in which a class receives the instance of objects it needs (called dependencies) from an external source rather than creating them itself

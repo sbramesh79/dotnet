@@ -1,0 +1,7 @@
+Ctrl + , search any file or methods
+
+Ctrl + Tab Switch between the files
+
+Shift + Alt +Enter   Full screen   
+
+Ctrl + M  Collapse and enlarge the methods               	

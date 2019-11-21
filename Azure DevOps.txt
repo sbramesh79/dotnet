@@ -1,0 +1,21 @@
+DevOps
+
+Setting goals
+
+Clearly define measurable outcomes
+
+	1. Reduce defects by 20%
+
+	2. Increase uptime by 10%
+
+	3. Increase release frequency by 20%
+
+Creating timelines
+
+	1. Short timeline, but not too short
+
+	2. Should be achievable
+	
+	3. Rapid feedback
+	
+	4. Finish with a retrospective

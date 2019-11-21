@@ -1,0 +1,37 @@
+Performance testing
+
+It is non-functional testing technique, performed not to eliminate bugs but to identify the performnace bottelnecks.
+
+Speed, Scalability and Stability
+
+Advantages
+
+1. Validate fundamental features
+
+2. Measure Speed, accuracy and stability
+
+3. Keep users happy
+
+4. Improve optimization
+
+
+Types of Performance testing
+
+1. Load testing
+
+2. Endurance testing (Expected load over a period of time)
+
+3. Volume testing
+
+4. Scalability testing (Increased end user testing)
+
+5.  Spike testing
+
+6. Stress testing
+
+
+Tools
+
+1. LoadNinja
+
+2. Apache Jmeter

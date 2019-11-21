@@ -1,0 +1,38 @@
+1. Prepare development environment
+
+2. Mesh programming models
+
+3. Storing application state
+
+4. Scaling Mesh Microservices
+
+5. Exposing public endpoints
+
+Why service fabric mesh
+
+Mesh takes away the infrastructure management issues
+
+Classic service fabric works with
+
+	1. Reliable services
+	2. Guest executables
+	3. Containers
+	4. It has built-in routing
+	5. Involves using third party solutions
+	6. Requires custom  integration
+
+Reliable services are .Net/Java only
+
+Mesh is a containers only
+
+	Enable any language or runtime
+	still fully customizable
+Service fabric deployments are 
+
+	Monitored
+	Auto-repair
+
+Made much simpler
+
+	
+	

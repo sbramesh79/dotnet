@@ -1,0 +1,70 @@
+OWASP (Open web application security project) 2017
+
+1. XSS (Cross site scripting) html and java script context
+
+try to avoid using @Html.Raw or try to control
+
+@HttpUtility.JavaScriptStringEncode(ViewBag.SearchTerm)
+
+Same origin policy
+
+1. Protocol
+2. Domain name
+3. Port
+
+http://example.com vs https://example.com
+
+https://www.example.com vs https://example.com
+
+https://example.com:444 vs https://example.com
+
+CORS (Cross origin resource sharing)
+
+Enabling CORS
+
+EnableCors/DisableCors in web.config --try to avoid this at global level
+
+it should be specific for given endpoint
+
+SQL Injection: ADO.Net
+
+Use parameterized statement
+command.Parameters.AddWithValue("@id",id)
+
+SQL Injection: Entity Framework
+
+Avoid execution of Raw SQL
+	DbSet.SqlQuery()
+	DbContext.Database.SqlQuery
+	DbContext.Database.ExecuteSqlCommand()
+
+Return IEnumerable instead of IQueryable
+
+CSRF (Cross site request forgery) -cookies
+
+Storing data
+
+	storing secret data in web.config
+
+	encrypting web.config
+
+	Azure key vault
+		Encrypts Keys and  Secrets
+		Is protected by hardware security modules (HSM)
+
+	password hashing
+
+web.config cannot be downloaded via http --http Error 404.8
+
+Securing sessions, cookies
+
+Error handling
+
+Hiding server information
+
+Start with identity server
+
+Enforce Https:
+
+
+

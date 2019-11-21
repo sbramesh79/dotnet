@@ -1,0 +1,26 @@
+var BankruptcyMilestoneFieldOtherTracking ={
+				BankruptcyMilestoneFieldOtherId :milestoneFieldValue,
+				MilestoneFieldOtherValue : $("#Other").val(),
+				BankruptcyId:bkId,
+				HostType :""
+			}
+
+			var milestoneOther = JSON.stringify(BankruptcyMilestoneFieldOtherTracking);
+
+			if((milestoneFieldValue==162) ||(milestoneFieldValue==187))
+			{
+				$.ajax({
+					type: 'POST',
+					url:'/BankruptcyMileStone/SaveBankruptcyMileStoneFieldOther',
+					contentType:'application/json',
+					data: milestoneOther,
+					success: function(data){
+						if(data==true){
+							displayBankruptcyAlert("divBankruptcySetUpAlert" , true,"<strong>Success!</strong> Data Saved Successfully!");
+						}
+					},
+					error: function(err, status) {
+						PNMAC.util.DialogBox.OpenDialog("Bankruptcy Milestone Others", "Application has encountered an error. Please contact your administrator.", function () { }, null, "Ok", null);
+					}
+				});
+			}
