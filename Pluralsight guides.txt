@@ -1,0 +1,25 @@
+1. https://app.pluralsight.com/guides/sql-data-description-language
+
+2. https://app.pluralsight.com/guides/async-programming-task-parallel-library
+
+3. https://app.pluralsight.com/guides/csharp-async-await-keywords-getting-started
+
+4. https://app.pluralsight.com/guides/async-method-return-types-csharp-overview
+
+5. https://app.pluralsight.com/guides/sql-data-manipulation-language
+
+6. https://app.pluralsight.com/guides/solid-design-microservices
+
+7. https://app.pluralsight.com/guides/understand-control-flow-async-await
+
+8. https://app.pluralsight.com/guides/c-using-interfaces-and-delegates
+
+9. https://app.pluralsight.com/guides/conditional-logic-in-c-net
+
+10. https://app.pluralsight.com/guides/throw-re-throw-expectations
+
+11. https://app.pluralsight.com/guides/flow-control-csharp-iterative-statements-advanced-usages
+
+12. https://app.pluralsight.com/guides/how-why-to-use-delegates-csharp
+
+13. https://app.pluralsight.com/guides/how-to-create-custom-attributes-csharp
