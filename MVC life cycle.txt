@@ -21,3 +21,26 @@ Request comes through browser
 
 
 Temp data stays for a subsequent http requests as opposed to ViewBag and ViewData
+
+pass data from controller to controller, action to action
+
+ViewBag, ViewData and TempData
+
+ViewBag
+
+Used to pass data from Controller to View, it was introduced in MVC 1.0
+
+Casting is required for complex object
+
+Null check is required
+
+It becomes null after the current request
+
+
+ViewData
+
+It is wrapper around ViewBag
+
+type casting is not required, value becomes null after current request
+
+it is slow compared to ViewData

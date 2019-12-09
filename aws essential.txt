@@ -1,0 +1,25 @@
+IAM identity access management
+
+provide means for access to 
+
+computing
+
+storage
+
+database
+
+app service
+
+* Identity pool and user pool
+
+web identity federation
+
+aws code star
+
+root user should not be used for other purpose. Better to create a separate user and then continue
+
+arn:aws:iam::791505455007:user/cliUser
+
+arn: amazon resource name
+
+resource based policy

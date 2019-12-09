@@ -54,3 +54,32 @@ dynamic - c# 4.0
 it does not require initialization, type of the variable is decided at the run time
 
 visual studio does not provide intellisence, it can be used for properties or returning function
+
+
+Difference between const and readonly
+const fields has to be initialized while declaration only, while readonly fields can be initialized at declaration or in the constructor.
+const variables can declared in methods ,while readonly fields cannot be declared in methods.
+const fields cannot be used with static modifier, while readonly fields can be used with static modifier.
+A const field is a compile-time constant, the readonly field can be used for run time constants.
+
+string interpolation
+
+string userName = "Ramesh S B";
+
+var fullname = $"Hello {userName}";
+
+$.ajax {
+
+type:POST,
+url:bk/bk,
+data:
+content: 'application/json'
+success: function(data)
+
+fai
+
+
+
+
+}
+

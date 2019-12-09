@@ -1,0 +1,10 @@
+Nunit 3
+
+1. Nunit, Nunit adapter and Microsoft Test sdk
+
+2. Add a class and decorate with an attribute
+
+	[TestFixture]
+
+3. Add a method and decorate with an attribute Test
+

@@ -8,7 +8,7 @@ C# 6.0 features
 
 4. stringinterpolation
 
-5. Save navigation operator  
+5. Safe navigation operator  
 
 example: to get value in an object, first check object is not null then property.
 

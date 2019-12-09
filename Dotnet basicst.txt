@@ -1,0 +1,14 @@
+.Net assembly
+
+types (private, public, shared and satelight)
+
+versioning
+
+nunit with simple examples
+
+web api 
+
+versioning
+
+authenticate web api
+

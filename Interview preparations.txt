@@ -1,0 +1,17 @@
+1. SQL Server
+
+2. .Net framework 
+
+3. MVC 5 and Web api (Rest api)
+
+4. Nunit and its features
+
+5. Jquery and Javascript
+
+6. Entity framework
+
+7. Project
+
+8. Design patterns (Single ton, Factory and abstract factory, proxy)
+
+9. 

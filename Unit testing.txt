@@ -1,0 +1,19 @@
+Unit testing is component of TDD
+
+Unit testing is the first level of testing done by developer
+
+Any changes that cannot catch at compile time
+
+In unit testing developer has to write the code
+
+Unit testing is applicable for each technology and concept is same but the framework is different
+
+Unit test is a small piece of code which is written for a particular method to test a particular situation
+
+Unit test is a combination of three things
+
+Arrange
+
+Act
+
+Assert
